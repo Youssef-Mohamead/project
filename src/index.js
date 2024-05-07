@@ -10,7 +10,7 @@ import Product from './components/Prodcut/Product';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([{
-  path: "/test",
+  path: "/project",
   element: <App/>
 },{
   path: `test/product/:id`,
